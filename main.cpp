@@ -3,7 +3,7 @@ class Bank_t{
     std::string name;
  
     std::string money(){
-        return "100$";
+        return "100$";//yes
     }
 public:
     Bank_t(int i, std::string str) : id(i), name(str){}
