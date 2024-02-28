@@ -22,7 +22,7 @@ int main(void) {
 
     auto money = (bank.*(std::get<2>(tp)))(); // 100$
     std::cout << "id: " << id << std::endl;
-    std::cout << "name: " << name << std::endl;
+    std::cout << "name: " << name << std::endl;//20000
     std::cout << "money: " << money << std::endl;
     bank.set_id(2);
     std::cout << "id: " << id << std::endl;
